@@ -42,15 +42,10 @@ env/
 .env.local
 .env.*.local
 
-# Logs
-logs/
-*.log
-app.log
 
 # Instagram Data (SENSITIVE!)
-data/accounts.csv
+
 data/sessions/*.json
-data/sessions/
 
 # Test outputs
 posts_*.json

@@ -1,0 +1,289 @@
+2025-10-15 17:52:21 - instagram-api - INFO - test_logger:18 - Mensagem INFO - informação geral
+2025-10-15 17:52:21 - instagram-api - WARNING - test_logger:19 - Mensagem WARNING - alerta
+2025-10-15 17:52:21 - instagram-api - ERROR - test_logger:20 - Mensagem ERROR - erro recuperável
+2025-10-15 17:52:21 - instagram-api - CRITICAL - test_logger:21 - Mensagem CRITICAL - erro crítico
+2025-10-15 17:52:21 - instagram-api.account_manager - INFO - test_logger:25 - Log do módulo account_manager
+2025-10-15 17:52:21 - instagram-api.extractor - INFO - test_logger:28 - Log do módulo extractor
+2025-10-15 17:52:21 - instagram-api - ERROR - test_logger:34 - Erro ao dividir por zero (com stack trace)
+Traceback (most recent call last):
+  File "C:\Users\tiago\OneDrive\Documentos\python\APOGEU\instagram_automation\instagram_extractor_api\instagram-api\tests\test_logger.py", line 32, in test_logger
+    resultado = 10 / 0
+                ~~~^~~
+ZeroDivisionError: division by zero
+2025-10-15 18:01:46 - instagram-api.account_manager - INFO - __init__:39 - Inicializando AccountManager com CSV: C:\Users\tiago\OneDrive\Documentos\python\APOGEU\instagram_automation\instagram_extractor_api\instagram-api\data\accounts.csv
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - __init__:39 - Inicializando AccountManager com CSV: C:\Users\tiago\OneDrive\Documentos\python\APOGEU\instagram_automation\instagram_extractor_api\instagram-api\data\accounts.csv
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - _load_accounts:61 - Detectado separador do CSV: ';'
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - _load_accounts:91 - ✓ Carregadas 106 contas do CSV
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - _load_accounts:95 -   - Contas disponíveis: 103/106
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - _load_accounts:96 -   - Contas com status 'success': 103
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - get_next_account:132 - ✓ Conta selecionada: profissional.vitoria7890 (uso: 0x)
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - get_next_account:132 - ✓ Conta selecionada: meu.leonardo1234 (uso: 0x)
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - get_next_account:132 - ✓ Conta selecionada: eu.lorena3456 (uso: 0x)
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - get_next_account:132 - ✓ Conta selecionada: meu.bruno5678 (uso: 0x)
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - get_next_account:132 - ✓ Conta selecionada: dev.andre9012 (uso: 0x)
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta profissional.vitoria7890 congelada por 1 minutos. Motivo: Teste de congelamento
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta profissional.vitoria7890 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - ERROR - mark_account_error:222 - ✗ Erro registrado na conta profissional.vitoria7890: Rate limit exceeded
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta profissional.vitoria7890 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta meu.leonardo1234 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta eu.lorena3456 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta meu.bruno5678 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta dev.andre9012 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta oficial.diego7890 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta top.sofia9012 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta profissional.helena1234 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta profissional.gustavofernandes8315 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta top.andersoncarvalho7629 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta dev.paulosergioteixeira6038 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta eu.vitoriasilva9904 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta meu.claudiapereira4702 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta profissional.marcelogoncalves3460 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta oficial.alinesouza5389 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta top.ricardocorreia1185 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta dev.leonardoaraujo7140 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta top.thiagoalmeida4706 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta eu.nicolemendes9342 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta meu.brunacosta6509 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta profissional.fernandoribeiro2817 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta eu.isabelcristinarocha6213 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta meu.renatafonseca3126 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta oficial.marianasouza1938 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta dev.pedroaugustolima9057 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta profissional.caiohenriqueduarte8701 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta top.fabiosantos1942 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta oficial.camila.pacheco7591 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta eu.helenamarques8273 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta profissional.alexandrecardoso6320 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta top.danielbarros3782 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta meu.sabrinalmeida9156 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta dev.brunonascimento4905 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta dev.rodrigooliveira2017 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta eu.liviacosta7401 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta oficial.patriciagoncalves5508 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta profissional.carloseduardomartins4136 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta meu.carolinasantos4306 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta eu.sofiaalmeida6147 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta top.joaolucaspinto5249 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta meu.beatrizmoreira6627 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta oficial.anapaulafreitas3894 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta profissional.matheussilva2590 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta dev.viniciussouza8712 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta oficial.nathaliaribeiro1825 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta top.andreluizlima7058 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta dev.guilhermerocha5981 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta eu.julianamendes7442 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta meu.amandabarbosa6910 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta top.rafaelcoelho2635 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta profissional.marcelofreire3726 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta dev.lucashenriquetorres8199 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta oficial.isabelasouza5748 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta eu.larissamartins4570 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta top.felipemonteiro9350 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta eu.sandraribeiro7205 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta oficial.clarasantos4082 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta dev.renatoalmeida3941 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta profissional.caionogueira1587 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta meu.anabeatrizcarvalho2741 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta dev.igorvasconcelos7119 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta eu.vanessaprado6025 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta profissional.diegocunha8927 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta meu.patricianascimento4831 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta top.gustavoaraujo3902 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta dev.brunocardoso9508 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta oficial.luanacastro5874 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta eu.isabelatavares4715 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta meu.larissamoraes6238 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta profissional.ricardomatos8041 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta oficial.helenafigueiredo2129 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta top.andrebarbosa7456 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta eu.marinasilva8347 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta meu.julianafreitas9823 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta eu.carolinaazevedo7071 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta dev.rodrigosouza2518 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta oficial.leticiaduarte6942 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta meu.sofialima8234 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta profissional.fernandocosta5902 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta profissional.carloshgomes5079 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta top.danielmartins4025 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta top.paulorlimajunior3125 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta oficial.amandarocha7139 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta eu.beatrizmendes9452 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta dev.marcelobatista1983 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta top.felipesantana6947 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta profissional.thiagogoncalves7614 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta meu.yasmincorreia5209 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta meu.liviamartins4390 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta oficial.nathaliareis3284 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta dev.rafaeltorres7841 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta dev.gabrielcosta8450 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta eu.alinelopes1192 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta top.matheussilva2038 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta profissional.joaopedrofernandes6275 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta oficial.carlnascimento9514 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta eu.isadoracampos3257 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta profissional.joaomarcosalmeida4650 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta meu.camilaoliveira8703 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta oficial.sabrinagomes2819 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta top.victorhugolima7126 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta eu.anaclarabarros7084 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - WARNING - freeze_account:181 - ⚠️  Conta dev.lucashenriqueprado9256 congelada por 1 minutos. Motivo: Teste pool esgotado
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta profissional.vitoria7890 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta meu.leonardo1234 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta eu.lorena3456 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta meu.bruno5678 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta dev.andre9012 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta oficial.diego7890 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta top.sofia9012 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta profissional.helena1234 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta profissional.gustavofernandes8315 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta top.andersoncarvalho7629 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta dev.paulosergioteixeira6038 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta eu.vitoriasilva9904 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta meu.claudiapereira4702 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta profissional.marcelogoncalves3460 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta oficial.alinesouza5389 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta top.ricardocorreia1185 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta dev.leonardoaraujo7140 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta top.thiagoalmeida4706 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta eu.nicolemendes9342 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta meu.brunacosta6509 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta profissional.fernandoribeiro2817 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta eu.isabelcristinarocha6213 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta meu.renatafonseca3126 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta oficial.marianasouza1938 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta dev.pedroaugustolima9057 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta profissional.caiohenriqueduarte8701 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta top.fabiosantos1942 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta oficial.camila.pacheco7591 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta eu.helenamarques8273 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta profissional.alexandrecardoso6320 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta top.danielbarros3782 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta meu.sabrinalmeida9156 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta dev.brunonascimento4905 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta dev.rodrigooliveira2017 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta eu.liviacosta7401 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta oficial.patriciagoncalves5508 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta profissional.carloseduardomartins4136 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta meu.carolinasantos4306 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta eu.sofiaalmeida6147 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta top.joaolucaspinto5249 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta meu.beatrizmoreira6627 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta oficial.anapaulafreitas3894 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta profissional.matheussilva2590 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta dev.viniciussouza8712 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta oficial.nathaliaribeiro1825 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta top.andreluizlima7058 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta dev.guilhermerocha5981 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta eu.julianamendes7442 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta meu.amandabarbosa6910 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta top.rafaelcoelho2635 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta profissional.marcelofreire3726 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta dev.lucashenriquetorres8199 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta oficial.isabelasouza5748 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta eu.larissamartins4570 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta top.felipemonteiro9350 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta eu.sandraribeiro7205 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta oficial.clarasantos4082 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta dev.renatoalmeida3941 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta profissional.caionogueira1587 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta meu.anabeatrizcarvalho2741 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta dev.igorvasconcelos7119 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta eu.vanessaprado6025 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta profissional.diegocunha8927 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta meu.patricianascimento4831 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta top.gustavoaraujo3902 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta dev.brunocardoso9508 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta oficial.luanacastro5874 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta eu.isabelatavares4715 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta meu.larissamoraes6238 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta profissional.ricardomatos8041 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta oficial.helenafigueiredo2129 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta top.andrebarbosa7456 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta eu.marinasilva8347 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta meu.julianafreitas9823 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta eu.carolinaazevedo7071 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta dev.rodrigosouza2518 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta oficial.leticiaduarte6942 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta meu.sofialima8234 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta profissional.fernandocosta5902 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta profissional.carloshgomes5079 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta top.danielmartins4025 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta top.paulorlimajunior3125 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta oficial.amandarocha7139 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta eu.beatrizmendes9452 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta dev.marcelobatista1983 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta top.felipesantana6947 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta profissional.thiagogoncalves7614 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta meu.yasmincorreia5209 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta meu.liviamartins4390 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta oficial.nathaliareis3284 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta dev.rafaeltorres7841 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta dev.gabrielcosta8450 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta eu.alinelopes1192 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta top.matheussilva2038 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta profissional.joaopedrofernandes6275 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta oficial.carlnascimento9514 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta eu.isadoracampos3257 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta profissional.joaomarcosalmeida4650 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta meu.camilaoliveira8703 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta oficial.sabrinagomes2819 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta top.victorhugolima7126 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta eu.anaclarabarros7084 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - unfreeze_account:195 - ✓ Conta dev.lucashenriqueprado9256 descongelada
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - reload_accounts:248 - Recarregando contas do CSV...
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - _load_accounts:61 - Detectado separador do CSV: ';'
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - _load_accounts:91 - ✓ Carregadas 106 contas do CSV
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - _load_accounts:95 -   - Contas disponíveis: 103/106
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - _load_accounts:96 -   - Contas com status 'success': 103
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - get_next_account:132 - ✓ Conta selecionada: profissional.vitoria7890 (uso: 0x)
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - get_next_account:132 - ✓ Conta selecionada: meu.leonardo1234 (uso: 0x)
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - get_next_account:132 - ✓ Conta selecionada: eu.lorena3456 (uso: 0x)
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - get_next_account:132 - ✓ Conta selecionada: meu.bruno5678 (uso: 0x)
+2025-10-15 18:03:52 - instagram-api.account_manager - INFO - get_next_account:132 - ✓ Conta selecionada: dev.andre9012 (uso: 0x)
+2025-10-15 18:08:28 - instagram-api.account_manager - INFO - __init__:39 - Inicializando AccountManager com CSV: C:\Users\tiago\OneDrive\Documentos\python\APOGEU\instagram_automation\instagram_extractor_api\instagram-api\data\accounts.csv
+2025-10-15 18:08:28 - instagram-api.account_manager - INFO - _load_accounts:61 - Detectado separador do CSV: ';'
+2025-10-15 18:08:28 - instagram-api.account_manager - INFO - _load_accounts:91 - ✓ Carregadas 106 contas do CSV
+2025-10-15 18:08:28 - instagram-api.account_manager - INFO - _load_accounts:95 -   - Contas disponíveis: 103/106
+2025-10-15 18:08:28 - instagram-api.account_manager - INFO - _load_accounts:96 -   - Contas com status 'success': 103
+2025-10-15 18:08:28 - instagram-api.account_manager - INFO - get_next_account:132 - ✓ Conta selecionada: profissional.vitoria7890 (uso: 0x)
+2025-10-15 18:08:28 - instagram-api.instagram_client - INFO - __init__:54 - Inicializando InstagramClient para: profissional.vitoria7890
+2025-10-15 18:08:28 - instagram-api.instagram_client - INFO - _setup_proxy:70 - Proxy configurado: 46.203.44.19:6018
+2025-10-15 18:08:28 - instagram-api.instagram_client - INFO - login:151 - Fazendo login fresh: profissional.vitoria7890
+2025-10-15 18:08:43 - instagram-api.instagram_client - ERROR - _handle_exception:205 - Exceção capturada: ClientConnectionError - ProxyError HTTPSConnectionPool(host='i.instagram.com', port=443): Max retries exceeded with url: /api/v1/launcher/sync/ (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 407 Proxy Authentication Required')))
+2025-10-15 18:08:43 - instagram-api.instagram_client - ERROR - login:174 - Erro ao fazer login: ProxyError HTTPSConnectionPool(host='i.instagram.com', port=443): Max retries exceeded with url: /api/v1/launcher/sync/ (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 407 Proxy Authentication Required')))
+2025-10-15 18:29:42 - instagram-api.account_manager - INFO - __init__:39 - Inicializando AccountManager com CSV: C:\Users\tiago\OneDrive\Documentos\python\APOGEU\instagram_automation\instagram_extractor_api\instagram-api\data\accounts.csv
+2025-10-15 18:29:42 - instagram-api.account_manager - INFO - _load_accounts:61 - Detectado separador do CSV: ';'
+2025-10-15 18:29:42 - instagram-api.account_manager - INFO - _load_accounts:91 - ✓ Carregadas 106 contas do CSV
+2025-10-15 18:29:42 - instagram-api.account_manager - INFO - _load_accounts:95 -   - Contas disponíveis: 103/106
+2025-10-15 18:29:42 - instagram-api.account_manager - INFO - _load_accounts:96 -   - Contas com status 'success': 103
+2025-10-15 18:29:42 - instagram-api.extractor - INFO - __init__:47 - InstagramExtractor inicializado
+2025-10-15 18:29:42 - instagram-api.extractor - INFO - extract_posts:65 - Iniciando extração de 5 posts de @instagram
+2025-10-15 18:29:42 - instagram-api.account_manager - INFO - get_next_account:132 - ✓ Conta selecionada: profissional.vitoria7890 (uso: 0x)
+2025-10-15 18:29:42 - instagram-api.extractor - INFO - extract_posts:76 - Tentativa 1/3 com conta: profissional.vitoria7890
+2025-10-15 18:29:42 - instagram-api.instagram_client - INFO - __init__:54 - Inicializando InstagramClient para: profissional.vitoria7890
+2025-10-15 18:29:42 - instagram-api.instagram_client - INFO - _setup_proxy:70 - Proxy configurado: 
+2025-10-15 18:29:42 - instagram-api.instagram_client - INFO - login:151 - Fazendo login fresh: profissional.vitoria7890
+2025-10-15 18:29:45 - instagram-api.instagram_client - ERROR - _handle_exception:205 - Exceção capturada: InvalidProxyURL - Please check proxy URL. It is malformed and could be missing the host.
+2025-10-15 18:29:45 - instagram-api.instagram_client - ERROR - login:174 - Erro ao fazer login: Please check proxy URL. It is malformed and could be missing the host.
+2025-10-15 18:29:45 - instagram-api.extractor - ERROR - extract_posts:143 - Erro inesperado na tentativa 1: Falha no login: Please check proxy URL. It is malformed and could be missing the host.
+2025-10-15 18:29:45 - instagram-api.account_manager - ERROR - mark_account_error:222 - ✗ Erro registrado na conta profissional.vitoria7890: Falha no login: Please check proxy URL. It is malformed and could be missing the host.
+2025-10-15 18:29:45 - instagram-api.extractor - INFO - extract_posts:147 - Tentando novamente...
+2025-10-15 18:29:45 - instagram-api.account_manager - INFO - get_next_account:132 - ✓ Conta selecionada: meu.leonardo1234 (uso: 0x)
+2025-10-15 18:29:45 - instagram-api.extractor - INFO - extract_posts:76 - Tentativa 2/3 com conta: meu.leonardo1234
+2025-10-15 18:29:45 - instagram-api.instagram_client - INFO - __init__:54 - Inicializando InstagramClient para: meu.leonardo1234
+2025-10-15 18:29:45 - instagram-api.instagram_client - INFO - _setup_proxy:70 - Proxy configurado: 
+2025-10-15 18:29:45 - instagram-api.instagram_client - INFO - login:151 - Fazendo login fresh: meu.leonardo1234
+2025-10-15 18:29:47 - instagram-api.instagram_client - ERROR - _handle_exception:205 - Exceção capturada: InvalidProxyURL - Please check proxy URL. It is malformed and could be missing the host.
+2025-10-15 18:29:47 - instagram-api.instagram_client - ERROR - login:174 - Erro ao fazer login: Please check proxy URL. It is malformed and could be missing the host.
+2025-10-15 18:29:47 - instagram-api.extractor - ERROR - extract_posts:143 - Erro inesperado na tentativa 2: Falha no login: Please check proxy URL. It is malformed and could be missing the host.
+2025-10-15 18:29:47 - instagram-api.account_manager - ERROR - mark_account_error:222 - ✗ Erro registrado na conta meu.leonardo1234: Falha no login: Please check proxy URL. It is malformed and could be missing the host.
+2025-10-15 18:29:47 - instagram-api.extractor - INFO - extract_posts:147 - Tentando novamente...
+2025-10-15 18:29:47 - instagram-api.account_manager - INFO - get_next_account:132 - ✓ Conta selecionada: eu.lorena3456 (uso: 0x)
+2025-10-15 18:29:47 - instagram-api.extractor - INFO - extract_posts:76 - Tentativa 3/3 com conta: eu.lorena3456
+2025-10-15 18:29:47 - instagram-api.instagram_client - INFO - __init__:54 - Inicializando InstagramClient para: eu.lorena3456
+2025-10-15 18:29:47 - instagram-api.instagram_client - INFO - _setup_proxy:70 - Proxy configurado: 
+2025-10-15 18:29:47 - instagram-api.instagram_client - INFO - login:151 - Fazendo login fresh: eu.lorena3456
+2025-10-15 18:29:50 - instagram-api.instagram_client - ERROR - _handle_exception:205 - Exceção capturada: InvalidProxyURL - Please check proxy URL. It is malformed and could be missing the host.
+2025-10-15 18:29:50 - instagram-api.instagram_client - ERROR - login:174 - Erro ao fazer login: Please check proxy URL. It is malformed and could be missing the host.
+2025-10-15 18:29:50 - instagram-api.extractor - ERROR - extract_posts:143 - Erro inesperado na tentativa 3: Falha no login: Please check proxy URL. It is malformed and could be missing the host.
+2025-10-15 18:29:50 - instagram-api.account_manager - ERROR - mark_account_error:222 - ✗ Erro registrado na conta eu.lorena3456: Falha no login: Please check proxy URL. It is malformed and could be missing the host.
