@@ -1,0 +1,55 @@
+version: "3.8"
+
+services:
+  instagram-extractor-api:
+    image: python:3.11-slim
+    hostname: "{{.Service.Name}}.{{.Task.Slot}}"
+    networks:
+      - network_swarm_public
+    command: sh -c "apt-get update && apt-get install -y git curl && git clone https://github.com/igorvboas/instagram_extractor_api.git /app && cd /app && pip install --no-cache-dir -r requirements.txt && python -m uvicorn app.main:app --host 0.0.0.0 --port 8000"
+    working_dir: /app
+    environment:
+      # API Configuration
+      - API_KEY=B6s5o96euVxtER8Ul69JqlQf2j3hMkD8
+      
+      # Instagram Configuration
+      - ACCOUNTS_CSV_PATH=data/accounts.csv
+      - SESSIONS_DIR=data/sessions
+      - LOG_FILE=logs/app.log
+      - LOG_LEVEL=INFO
+      
+      # Rate Limiting
+      - MAX_CONCURRENT_REQUESTS=3
+      - MAX_RETRIES_PER_REQUEST=3
+      - INSTAGRAM_DELAY_MIN=1
+      - INSTAGRAM_DELAY_MAX=3
+      
+      # Account Management
+      - ACCOUNT_FREEZE_DURATION_MINUTES=60
+      
+      # Python Configuration
+      - PYTHONUNBUFFERED=1
+      - PYTHONIOENCODING=utf-8
+    deploy:
+      mode: replicated
+      replicas: 1
+      placement:
+        constraints:
+          - node.role == manager
+      resources:
+        limits:
+          cpus: "1.0"
+          memory: 1G
+      labels:
+        - traefik.enable=true
+        - traefik.http.routers.instagram-extractor-api.rule=Host(`ig-video-manager.gdeapps.uk`)
+        - traefik.http.routers.instagram-extractor-api.entrypoints=websecure
+        - traefik.http.routers.instagram-extractor-api.tls.certresolver=letsencryptresolver
+        - traefik.http.routers.instagram-extractor-api.service=instagram-extractor-api
+        - traefik.http.services.instagram-extractor-api.loadbalancer.server.port=8000
+        - traefik.http.services.instagram-extractor-api.loadbalancer.passHostHeader=true
+
+networks:
+  network_swarm_public:
+    external: true
+
