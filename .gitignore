@@ -27,7 +27,7 @@ MANIFEST
 venv/
 ENV/
 env/
-.venv
+
 
 # IDEs
 .vscode/
@@ -44,7 +44,7 @@ env/
 
 
 # Instagram Data (SENSITIVE!)
-
+data/accounts.csv
 data/sessions/*.json
 
 # Test outputs
