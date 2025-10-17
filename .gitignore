@@ -43,9 +43,7 @@ env/
 .env.*.local
 
 
-# Instagram Data (SENSITIVE!)
-data/accounts.csv
-data/sessions/*.json
+
 
 # Test outputs
 posts_*.json
@@ -70,14 +68,6 @@ celerybeat.pid
 # SageMath
 *.sage.py
 
-# Environments
-.env
-.venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
 
 # mypy
 .mypy_cache/
