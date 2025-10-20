@@ -43,7 +43,9 @@ env/
 .env.*.local
 
 
-
+# Instagram Data (SENSITIVE!)
+data/accounts.csv
+data/sessions/*.json
 
 # Test outputs
 posts_*.json

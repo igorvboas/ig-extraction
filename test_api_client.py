@@ -183,7 +183,7 @@ if __name__ == "__main__":
     extract_posts("eusoumarcospaulo", 2)
     
     # Exemplo 2: Extrair stories
-    extract_stories("eusoumarcospaulo")
+    # extract_stories("eusoumarcospaulo")
     
     print("\n" + "="*70)
     print("✅ Testes concluídos!")
