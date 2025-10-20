@@ -61,6 +61,14 @@ class InstagramClient:
         
         # Configurar handler de exceções customizado
         self.client.handle_exception = self._handle_exception
+        
+        # Tentar desabilitar validação estrita do Pydantic para evitar erros de campos opcionais
+        try:
+            # Isso pode ajudar com erros de validação de campos novos da API do Instagram
+            import warnings
+            warnings.filterwarnings('ignore', category=UserWarning, module='pydantic')
+        except Exception as e:
+            logger.debug(f"Não foi possível configurar warnings do pydantic: {e}")
     
     def _setup_proxy(self):
         """Configura proxy para a conta"""

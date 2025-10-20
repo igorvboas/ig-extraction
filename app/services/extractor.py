@@ -12,6 +12,7 @@ from instagrapi.exceptions import (
     PleaseWaitFewMinutes,
     LoginRequired
 )
+from pydantic import ValidationError
 
 from app.services.instagram_client import InstagramClient
 from app.services.account_manager import AccountManager
@@ -135,6 +136,16 @@ class InstagramExtractor:
                 else:
                     raise ExtractionError("Falha de autenticação em todas as tentativas")
             
+            except ValidationError as e:
+                logger.error(f"Erro de validação do Pydantic: {e}")
+                logger.info("Tentando com outra conta (possível problema de versão da API)...")
+                self.account_manager.mark_account_error(account.username, f"Validation error: {str(e)[:100]}")
+                
+                if attempt < max_retries:
+                    continue
+                else:
+                    raise ExtractionError(f"Erro de validação persistente. Atualize o instagrapi: pip install --upgrade instagrapi")
+            
             except AccountPoolExhausted as e:
                 logger.error("Pool de contas esgotado")
                 raise
@@ -211,6 +222,16 @@ class InstagramExtractor:
                     continue
                 else:
                     raise RateLimitExceeded("Rate limit excedido em todas as tentativas")
+            
+            except ValidationError as e:
+                logger.error(f"Erro de validação do Pydantic (stories): {e}")
+                logger.info("Tentando com outra conta (possível problema de versão da API)...")
+                self.account_manager.mark_account_error(account.username, f"Validation error: {str(e)[:100]}")
+                
+                if attempt < max_retries:
+                    continue
+                else:
+                    raise ExtractionError(f"Erro de validação persistente. Atualize o instagrapi: pip install --upgrade instagrapi")
             
             except AccountPoolExhausted as e:
                 logger.error("Pool de contas esgotado")
